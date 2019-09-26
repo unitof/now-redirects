@@ -1,0 +1,10 @@
+{
+  "name": "redir-trump-dot-report",
+  "version": 2,
+  "alias": [
+    "www.thetrump.report"
+  ],
+  "routes": [
+    { "src": "/(.*)", "status": 301, "headers": { "Location": "https://thetrump.report/$1" }}
+  ]
+}
